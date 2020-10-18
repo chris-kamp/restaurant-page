@@ -14,9 +14,44 @@ h1 {
     color: rgb(198, 199, 190);
 }
 
-#text-content {
+#main-content {
     color: white;
     width: 960px;
+    margin: 5px auto;
+    background-color: rgb(100, 79, 79);
+}
+
+#text-container {
+    /* text-align: center; */
+    padding: 0 10px 10px 10px;
+    
+}
+
+#tab-container {
+    color: white;
+    background-color: rgb(100, 79, 79);
+    border-bottom: solid 2px;
+    border-color: gray;
+}
+
+.tab {
+    background-color: rgb(70, 24, 24);
+    min-width: 75px;
     text-align: center;
-    margin: 0 auto;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.tab-highlight {
+    background-color: rgb(131, 74, 74);
+    min-width: 75px;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+p {
+    text-align: center;
 }
